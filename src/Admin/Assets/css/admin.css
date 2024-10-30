@@ -1,0 +1,140 @@
+.CF7SF__wrp tr td:first-child {
+    font-weight: bold;
+}
+
+.CF7SF__wrp tr.active td:first-child {
+    color: #0e7b17;
+}
+
+.CF7SF__wrp tr.inactive td:first-child {
+    color: #9e1313;
+}
+
+.CF7SF__wrp .notice {
+    margin-left: 0;
+    margin-bottom: 20px;
+}
+
+.CF7SF__wrp {
+    width: 100%;
+}
+
+.CF7SF__form_row {
+    margin-bottom: .5rem;
+}
+
+.CF7SF__form_row:last-child {
+    margin-bottom: 0;
+}
+
+.CF7SF__wrp .form-inline-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.CF7SF__wrp .form-inline-flex label {
+    margin-right: 20px;
+}
+
+.CF7SF__wrp .form-inline-flex .button-secondary {
+    margin-left: 5px;
+}
+
+.CF7SF__wrp .form-check label {
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.CF7SF__wrp div.submit {
+    margin-bottom: 5px;
+}
+
+#CF7SF_access_token {
+    min-width: 400px;
+}
+
+.form-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.form-wrap > .field-list {
+    flex: 0 0 75%;
+}
+
+.form-wrap > .form-conf {
+    flex: 0 0 23%;
+    margin-right: 15px;
+}
+
+.label-info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.label-info-group {
+    min-width: 200px;
+}
+
+.appended-label {
+    font-weight: bold !important;
+    color: #777 !important;
+    text-transform: capitalize !important;
+    display: inline-block !important;
+}
+
+.form-check-label + textarea {
+    font-weight: normal;
+}
+
+.form-check-label {
+    margin-bottom: 5px;
+}
+
+.form-conf .inside {
+    padding: 0 12px 0 12px !important;
+}
+
+.form-group.inner {
+    margin-top: 15px;
+}
+
+.form-group input[type=text], .form-group input[type=url] {
+    width: 50%;
+}
+
+.CF7SF__wrp .button .dashicons {
+    padding: 4px 0 0 0;
+}
+
+.appended-label {
+    padding:0 6px!important;
+}
+
+@media (max-width: 1280px) {
+    .form-wrap > .field-list {
+        flex: 0 0 60%;
+    }
+
+    .form-wrap > .form-conf {
+        flex: 0 0 39%;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 1024px) {
+    .form-wrap > .field-list {
+        flex: 0 0 100%;
+    }
+
+    .form-wrap > .form-conf {
+        flex: 0 0 100%;
+        margin-right: 0;
+        margin-top: 15px;
+    }
+}

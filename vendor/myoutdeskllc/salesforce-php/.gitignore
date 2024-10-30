@@ -1,0 +1,7 @@
+creds.json
+vendor/*
+.phpunit*
+.idea
+.env
+.authenticator
+.state

@@ -1,0 +1,42 @@
+{
+    "name": "myoutdeskllc/salesforce-php",
+    "description": "salesforce library for php8+",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "myoutdeskllc\\SalesforcePhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "JL",
+            "email": "jay.lindsley@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "sammyjo20/saloon": "^2.0",
+        "league/csv": "^9.8",
+        "mihasicehcek/php_salesforce_soql_builder": "^1.0"
+    },
+    "require-dev": {
+        "pestphp/pest": "^1.21",
+        "fakerphp/faker": "^1.19",
+        "vlucas/phpdotenv": "^5.5",
+        "phpstan/phpstan": "^1.10"
+    },
+    "scripts": {
+        "test": "pest",
+        "phpstan": "phpstan analyse src --level=5"
+    },
+    "scripts-descriptions": {
+        "test": "Run the tests",
+        "phpstan": "Run phpstan"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
